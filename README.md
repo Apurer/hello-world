@@ -1,4 +1,4 @@
 # hello-world
 Testing GitHub Actions for Golang
 
- <a href="https://github.com/actions/setup-go/actions"><img alt="GitHub Actions status" src="https://github.com/actions/setup-go/workflows/build-test/badge.svg"></a>
+ <a href="https://github.com/actions/setup-go/actions"><img alt="GitHub Actions status" src="https://github.com/apurer/hello-world/workflows/Go/badge.svg"></a>
