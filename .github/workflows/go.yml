@@ -27,15 +27,15 @@ jobs:
 
     - name: Get dependencies
       if: runner.os != 'Windows'
-      run: |
-        go get -v -t -d ./...
-        if [ -f Gopkg.toml ]; then
-            curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
-            dep ensure
-        fi
+        run: |
+          go get -v -t -d ./...
+          if [ -f Gopkg.toml ]; then
+              curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+              dep ensure
+          fi
       else: runner.os == 'Windows'
-      run: |
-        go get -v -t -d .\...
+        run: |
+          go get -v -t -d .\...
 
     - name: Build
       run: go build -v .
