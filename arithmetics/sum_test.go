@@ -1,3 +1,4 @@
+// Using a separate morestrings_test package means that I can’t access the unexported fields and functions in my package.
 package arithmetics_test
 
 import (
