@@ -1,4 +1,4 @@
-package main
+package hello
 	
 import (
     "fmt"
@@ -7,12 +7,14 @@ import (
 )
 
 func Hello() string {
+    fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
+    fmt.Println(arithmetics.Sum(4,2))
     return "hello world"
 }
 
-func main() {
-    hello := Hello()
-    fmt.Println(hello)
-    fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
-    fmt.Println(arithmetics.Sum(4,2))
-}
+// func main() {
+//     hello := Hello()
+//     fmt.Println(hello)
+//     fmt.Println(morestrings.ReverseRunes("!oG ,olleH"))
+//     fmt.Println(arithmetics.Sum(4,2))
+// }
